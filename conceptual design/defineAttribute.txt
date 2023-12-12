@@ -1,0 +1,10 @@
+Зорилго
+Сайн дурын үндсэн дээр өөрийн хүсэлтээр цусаа өгсөн хүмүүсээс цус авч цус яаралтай хэрэгтэй 
+байгаа хүмүүст яаралтай, зохион байгуулалтайгаар цус шилжүүлэх, цусны бүлгүүдийн хооронд холилгүйгээр 
+цус хандивлах, хандивласан хүмүүсийг бүртгэх
+
+Blood donor: phone, address, date-of-donation, name, age, donor id, blood type, sex
+Blood: Cost, blood type, blood-amount, haemoglobin content, bloodbag-number
+Staff: name, imp-id, address, phone-no, salary, emp-descroption
+Blood inventory: Description, orders, quantity, bloodbag-number, blood-type
+Recepient: name, rec-id, blood-type, sex, age, date-of-accept, dat-of-req

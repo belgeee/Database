@@ -1,0 +1,19 @@
+Logic design:
+
+
+ Donor(date of donation, address, sex, age, phone-number, name, blood type, donorID)
+Primary key DonorID
+
+Blood(bloodbagNo, cose, blood-type, blood-amount, hameglobin content);
+Foreign key references bloodinventory(bloodbagNo) ON UPDATE CASCADE ON SET CASCADE
+
+Staff(phoneNo, address, staff-id, salary, emp-description, name composite(last name, fisrt name));
+primary key staff-id;
+Foreign key references reciepent(rec-ID) ON UPDATE CASCADE ON SET CASCADE;
+
+blood inventory(quantity, bloodbagNo, blood-type, orders, descriptions);
+primary key bloodbagNo
+	
+recepient(staff-ID, name composite(last name, first name), rec-ID, blood-type, date-of rec, sex, age, date-of-accept)
+primary key rec-ID
+Foreign key staff-ID references staff(staff-ID) ON UPDATE CASCADE ON SET CASCADE; 
